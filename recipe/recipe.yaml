@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dexsuite/dex-retargeting/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 4d0f34891a5cc7307762e3714d7afa2bbdac0e9e8a2913f67c3b607698bdd750
+  sha256: f19c5b54e120843fd694e7443b9168549af445d4c62af3b01e0c115ab7a650fb
 
 build:
   number: 0
