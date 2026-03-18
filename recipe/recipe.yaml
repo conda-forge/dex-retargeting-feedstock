@@ -1,5 +1,5 @@
 context:
-  version: "0.4.6"
+  version: "0.5.0"
 
 package:
   name: dex-retargeting
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dexsuite/dex-retargeting/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 4d0f34891a5cc7307762e3714d7afa2bbdac0e9e8a2913f67c3b607698bdd750
+  sha256: f19c5b54e120843fd694e7443b9168549af445d4c62af3b01e0c115ab7a650fb
 
 build:
   number: 0
@@ -19,16 +19,15 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - setuptools
+    - hatchling
   run:
     - anytree >=2.12.0
     - lxml >=5.2.2
-    - nlopt >=2.6.1,<2.8.0
-    - numpy >=1.21.0,<2.0.0
+    - nlopt >=2.8.0
+    - numpy >=2.0.0
     - pinocchio >=2.7.0
-    - pytorch
+    - pytorch >=2.0.0
     - pytransform3d >=3.5.0
-    - trimesh >=4.4.0
     - python >=${{ python_min }},<3.13
     - pyyaml >=6.0.0
 
