@@ -26,6 +26,7 @@ requirements:
     - nlopt >=2.8.0
     - numpy >=2.0.0
     - pinocchio >=2.7.0
+    - pytorch >=2.0.0
     - pytransform3d >=3.5.0
     - python >=${{ python_min }},<3.13
     - pyyaml >=6.0.0
