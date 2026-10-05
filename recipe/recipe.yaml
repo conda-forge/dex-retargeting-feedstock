@@ -10,7 +10,7 @@ source:
   sha256: f19c5b54e120843fd694e7443b9168549af445d4c62af3b01e0c115ab7a650fb
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script:
     - ${{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
@@ -28,7 +28,7 @@ requirements:
     - pinocchio >=2.7.0
     - pytorch >=2.0.0
     - pytransform3d >=3.5.0
-    - python >=${{ python_min }},<3.13
+    - python >=${{ python_min }}
     - pyyaml >=6.0.0
 
 tests:
